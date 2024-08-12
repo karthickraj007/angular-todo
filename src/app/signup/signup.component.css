@@ -1,0 +1,20 @@
+.header{
+    color:blue;
+    font-weight:bold;
+
+}
+
+
+.main-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.error-msg{
+    color:red;
+    font-weight:bold
+}

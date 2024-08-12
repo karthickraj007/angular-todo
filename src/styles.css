@@ -1,1 +1,21 @@
 /* You can add global styles to this file, and also import other style files */
+@import "bootstrap/dist/css/bootstrap.min.css";
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+.active{
+    background-color: white;
+    padding:10px;
+    border-radius: 10px;
+    color:blue !important
+}
+
+input.ng-invalid.ng-touched{
+    border:2px solid red
+}
+
+.error-msg{
+    color:red;
+    font-weight:bold
+}
